@@ -40,13 +40,13 @@ section {
 header {
   background: transparent;
   z-index: 10;
-  display: flex;
   position: fixed;
   width: 100%;
 }
 
 header,
 footer {
+  display: flex;
   height: 8rem;
 }
 
