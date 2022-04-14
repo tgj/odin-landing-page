@@ -32,6 +32,8 @@ main {
 }
 
 section {
+  display: flex;
+  flex-wrap: wrap;
   overflow: auto; /* recommended */
 }
 
@@ -70,9 +72,15 @@ footer {
   color: #e5e7eb;
 }
 
+.info-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
 .logo {
   margin-left: 4rem;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
   background-color: rgba(24, 24, 24, 0.5);
   margin-top: 1rem;
   border-radius: 16px;
@@ -98,7 +106,7 @@ header ul[role="nav"] {
 }
 
 ul[role="nav"] li {
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
   color: white;
   display: flex;
   border-radius: 16px;
@@ -121,6 +129,7 @@ a {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -150,6 +159,11 @@ a {
 .frame {
   display: flex;
   border: 1px solid white;
+}
+
+.blue-frame {
+  border: 2px solid blue;
+  border-radius: 16px;
 }
 
 .gap-4 {
