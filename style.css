@@ -47,7 +47,6 @@ header {
 header,
 footer {
   display: flex;
-  height: 8rem;
 }
 
 section:last-child {
@@ -56,6 +55,7 @@ section:last-child {
 
 footer {
   background: lightblue;
+  flex-wrap: wrap;
 }
 
 p {
@@ -176,8 +176,16 @@ a {
   justify-content: center;
 }
 
+.mx-space-around {
+  justify-content: space-around;
+}
+
 .cx-center {
   align-items: center;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .frame {
